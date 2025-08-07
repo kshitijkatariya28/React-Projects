@@ -1,33 +1,23 @@
-# Background Changer (React)
+# 🎨 React Background Color Changer
 
-A simple and interactive React mini-project where users can dynamically change the background color of the page with just a click.  
-This project is part of my React Mini Projects series.
-
----
-
-## 📸 Screenshot
-
-![Background Changer Screenshot](./screenshot.png)  
-*(Replace `screenshot.png` with your actual screenshot image or use an online image URL)*
+This is a simple React project that allows users to change the background color of the webpage by clicking buttons. It’s a great beginner-friendly project to practice React `useState`, event handling, and inline styling.
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Features
 
-[Click here to view live](https://your-live-demo-link.com)  
-*(Replace this link with your deployed project link from Netlify/Vercel/GitHub Pages)*
-
----
-
-## 🛠 Tech Stack
-- **React** (Frontend framework)
-- **CSS** (Styling)
+- Click buttons to change background color dynamically.
+- Uses React functional components and hooks.
+- Clean and minimal UI.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🛠️ Technologies Used
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/<your-username>/React_Projects.git
-   cd React_Projects/bg-changer
+- React (Vite)
+- JavaScript (ES6)
+- HTML/CSS
+
+
+
+
