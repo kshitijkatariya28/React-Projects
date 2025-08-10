@@ -32,6 +32,7 @@ function App() {
   let passwordRef = useRef(null)
 
   const copyPasswordToClipBoard = useCallback(()=>{
+    passwordRef.current?.select()
     window.navigator.clipboard.writeText(password)
   },[password])
 
@@ -53,11 +54,11 @@ function App() {
             className="bg-white text-yellow-600 rounded-xl w-full"
             value={password}
             readOnly
-            onClick={() => {
-            navigator.clipboard.writeText(password)
-            }}
+            ref={passwordRef}
           />
-          <button className="bg-blue-600 p-1 px-3 text-white rounded-xl ">
+          <button className="bg-blue-600 p-1 px-3 text-white rounded-xl " onClick={()=>{
+               copyPasswordToClipBoard()
+            }}>
             copy
           </button>
         </div>
